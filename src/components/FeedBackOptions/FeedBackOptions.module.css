@@ -1,0 +1,25 @@
+.button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 22px;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: rgb(3, 109, 109);
+  cursor: pointer;
+  transition: all 250ms var(--timingFn);
+}
+
+.button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button:hover {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgb(128, 130, 20);
+}

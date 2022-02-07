@@ -1,0 +1,12 @@
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  box-shadow: var(--boxShadow);
+  border: 2px solid rgb(61, 10, 120);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 32px;
+}
